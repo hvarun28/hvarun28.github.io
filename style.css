@@ -1,0 +1,87 @@
+*, html { 
+    max-width: 100%;
+}
+body {
+    background: #191b1c;
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/*NAVBAR*/
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100; 
+
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+/*#mainNavbar .nav-link:hover {
+    color: #ac6a0a;
+}*/
+
+#mainNavbar .navbar-brand {
+    color: #0785c0;
+    font-size: 1.5rem;
+}
+
+.navbar.scrolled {  /*changes navbar color when scrolled*/
+    background: #0b2735;
+    transition: background 500ms;
+}
+
+#headingGroup span {
+    color: #0785c0;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+/*ICON COLOR CHANGE*/
+i.fab{    /*icon color*/
+    color:#0785c0;
+}
+/*BACKGROUND IMAGE FOR HEADER*/
+#header {
+            background: url("b3a.jpg") ;
+            no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+            
+        }
+.jumbotron {
+    padding: 10rem 0rem;
+}
+/*INFO CARDS*/
+.card{
+    margin: auto;
+    background: black;
+    color: white;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.container{
+    width: 100%;
+}
+.col-lg-6, col-10, col-lg-8 {
+    margin: auto;
+}
+.img-fluid{
+    padding: inherit;
+}
+
